@@ -11,6 +11,28 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('resto', 'RestoController@index');
+
+Route::get('creativ', 'CreativController@index');
+
+Route::get('karting', 'KartingController@index');
+
+Route::get('article/{n}', function($n) {
+        return view('article')->with('numero', $n);
+})->where('n', '[0-9]+');
+
+Route::get('{any?}', function ($any = null) {
+
+        $sites = array("resto","creativ");
+        
+        if(in_array($any, $sites)):
+           return 'Je suis la page ' . $any . ' !';
+        else:
+           return view('perso');
+        endif;
+
+})->where('any', '.*');
+
+/*Route::get('/', function () {
     return view('welcome');
-});
+});*/
