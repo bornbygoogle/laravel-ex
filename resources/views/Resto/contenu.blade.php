@@ -126,7 +126,7 @@
             <?php 
             $entrees = array(
                          array('num' => 1, 'quantite' => 5, 'nom' => 'Nem au porc', 'viande' => 'Porc', 'unite' => 'pieces par portion', 'prix' =>'5.50', 'commentaire' => ''),
-                         array('num' => 2, 'quantite' => 6, 'nom' => 'Nem aux crevettes', 'viande' => 'Crevettes', 'unite' => 'pieces par portion', 'prix' =>'6.50', 'commentaire' => ''),
+                         array('num' => 2, 'quantite' => 3, 'nom' => 'Nem aux crevettes', 'viande' => 'Crevettes', 'unite' => 'pieces par portion', 'prix' =>'6.50', 'commentaire' => ''),
                          array('num' => 3, 'quantite' => 5, 'nom' => 'Raviolis aux crevettes croustillants', 'viande' => 'Crevettes', 'unite' => 'pieces par portion', 'prix' =>'6.50', 'commentaire' => ''),
                          array('num' => 4, 'quantite' => 5, 'nom' => 'Samousa aux boeuf', 'viande' => 'Boeuf', 'unite' => 'pieces par portion', 'prix' =>'6.50', 'commentaire' => ''),
                          array('num' => 5, 'quantite' => 5, 'nom' => 'Beignets aux crettes', 'viande' => 'Crevettes', 'unite' => 'pieces par portion', 'prix' =>'6.50', 'commentaire' => ''),
